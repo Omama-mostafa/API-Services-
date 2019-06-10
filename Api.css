@@ -1,0 +1,26 @@
+header 
+{
+    padding:20px;
+    background-color: cadetblue;
+}
+header p 
+{
+    font-size: 50px;
+}
+body
+{
+    background-color: aliceblue;
+}
+p
+{
+    font-size: 30px;
+    padding-left: 20px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    text-align: left;
+}
+ul li
+{
+    padding-top: 10px;
+}

@@ -1,0 +1,50 @@
+body
+{
+    background-color: aliceblue;
+}
+header 
+{ 
+    padding:50px;
+    background-color: cadetblue;
+}
+header p 
+{     
+    margin-top: -10px;
+    padding-left: 5px; 
+    font-size: 50px;
+}
+p
+{
+    font-size: 30px;
+    margin-bottom: 3px; 
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+input[type = "text" ] , input[type = "number"] , textarea
+{
+    width: 10%;
+    height: 10%;
+    padding: 0.5%;
+    text-align: center;
+    border: 2px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 1);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    -webkit-transition: 300ms ease all;
+}
+input[type = "submit"]
+{
+    text-align: center;
+    padding: 3px;
+    margin: 20px;
+    width : 10%;
+    height: 10%;
+    font-size: 100%;
+    border-radius: 10px;
+}
+form
+{
+    font-size: 20px;
+    padding-left: 20px;
+}
